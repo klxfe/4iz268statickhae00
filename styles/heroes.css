@@ -3,6 +3,21 @@
     src: url(../sources/valorant.ttf);
 }
 
+@media screen and (min-width:1800px) {
+    body {
+        background-color: #3a2d22;
+    }
+}
+
+@media print {
+    * {
+        background-color: white !important;
+        color: #000 !important;
+        opacity: 1 !important;
+        text-align: left !important;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -132,6 +147,7 @@ footer{
 .chapter_photos{
     max-width: 100px;
     margin-left: 70px;
+    padding-top: 15px;
 }
 .chapter_photos img{
     margin-bottom: 15px;
@@ -139,4 +155,8 @@ footer{
 
 .chapter_text, .chapter_photos{
     display: inline-block;
+}
+
+.topmenu a.active{
+    color: #FD4556 ;
 }

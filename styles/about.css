@@ -9,6 +9,15 @@
     font-family: Valorant;
 }
 
+@media print {
+    * {
+        background-color: white !important;
+        color: #000 !important;
+        opacity: 1 !important;
+        text-align: left !important;
+    }
+}
+
 .main>*{
     float: left;
     width: 100%;
@@ -132,4 +141,8 @@ main{
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
+}
+
+.topmenu a.active{
+    color: #FD4556 ;
 }
