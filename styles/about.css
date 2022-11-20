@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Valorant;
+    src: url(../sources/valorant.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Valorant;
+}
+
+.main>*{
+    float: left;
+    width: 100%;
+}
+
+.logo, .topmenu {
+    display: inline-block;
+}
+
+.topmenu li{
+    margin-right: 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.topmenu li a {
+    text-decoration: none;
+    color: #FFFBF5;
+    font-size: 15px;
+}
+
+.topmenu li a:hover {
+    text-decoration: none;
+    color: #FD4556;
+    font-size: 15px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #000000;
+}
+
+.logo{
+    margin-right: 30px;
+}
+
+footer{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    background: #000000;
+    color: white;
+}
+
+.bottom_links, .rights_reserved{
+    justify-content: center;
+    display: flex;
+}
+
+.bottom_links li{
+    display: inline-block;
+}
+
+.bottomcontent, .bottomvideo {
+    display: inline-block;
+}
+
+.rights_reserved{
+    font-size: 10px;
+}
+
+.rights_reserved p{
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+main div{
+    font-size: 15px;
+}
+
+main div h1{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.imagelogo {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+main div p{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 30px;
+}
+
+.values {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.valuesList{
+    padding-top: 15px;
+}
+
+.valuesList>*{
+    padding-bottom: 15px;
+
+}
+
+.founder{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.founders{
+    display: flex;
+    justify-content: center;
+}
+main{
+    background: black;
+    color: white;
+}
+
+.founders_title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Valorant;
+    src: url(../sources/valorant.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Valorant;
+}
+
+body{
+    color:white;
+}
+
+.main>*{
+    float: left;
+    width: 100%;
+}
+
+.logo, .topmenu {
+    display: inline-block;
+}
+
+.topmenu li{
+    margin-right: 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.topmenu li a {
+    text-decoration: none;
+    color: #FFFBF5;
+    font-size: 15px;
+}
+
+.topmenu li a:hover {
+    text-decoration: none;
+    color: #FD4556;
+    font-size: 15px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #000000;
+}
+
+.logo{
+    margin-right: 30px;
+}
+
+footer{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    background: #000000;
+    color: white;
+}
+
+.bottom_links, .rights_reserved{
+    justify-content: center;
+    display: flex;
+}
+
+.bottom_links li{
+    display: inline-block;
+}
+
+.bottomcontent, .bottomvideo {
+    display: inline-block;
+}
+
+.rights_reserved{
+    font-size: 10px;
+}
+
+.rights_reserved p{
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.topnav{
+    height: 700px;
+}
+
+.topnavtitle{
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.topnavtext{
+    padding: 2%;
+    width: 30%;
+    background: #53212B;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.topnavcontent{
+    color: white;
+    background: black;
+}
+
+.topnavtitle h1{
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.maprow, .topnavtext{
+    display: inline-block;
+}
+
+.singlemap{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.maprow2{
+    margin-left: 44%;
+    display: inline-block;
+}
+
+.maprow3{
+    margin-left: 44%;
+    display: inline-block;
+}
+
+.bottomnavtitle{
+    background: black;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.bottomnavcontent{
+    background: black;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.styled-table thead tr {
+    background-color: #53212B;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody {
+    background-color: #042e27;
+    color: #ffffff;
+    text-align: left;
+}
+
+.bottomnavtitle{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.bottomnavcontent{
+    padding-bottom: 5%;
+}
+
